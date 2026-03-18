@@ -17,17 +17,13 @@ APPO: Attention-guided Perception Policy Optimization for Video Reasoning
 
 <img src="assets/teaser.png" width="800" />
 
-
-
 ## 📰 News
-* **[2025.06.04]**   Upload [YouTube Presentation Video](https://www.youtube.com/watch?v=-zi-PzVNQI0)
-* **[2025.03.20]**   Release [pretrain, finetune weights](https://huggingface.co/ahsgdxhs/Crab) and [AV-UIE Dataset](https://huggingface.co/datasets/ahsgdxhs/AVUIE).
-* **[2025.03.17]**   [Project demo video](https://huggingface.co/datasets/ahsgdxhs/AVUIE/blob/main/demo.mp4)
-* **[2025.03.15]**   Release training, evaluation and inference codes of Crab.
-* **[2025.02.27]**   Crab has been accepted to CVPR 2025.
+
+* **[2026.03.18]**   Release training and evaluation codes of Crab.
+* **[2026.02.20]**   APPO has been accepted to CVPR 2026.
 
 
-<div align="center"><video src="https://www.youtube.com/watch?v=O57xewSvOj4" ></div>
+<!-- <div align="center"><video src="https://www.youtube.com/watch?v=O57xewSvOj4" ></div> -->
 
 
 ## 🌟 Unified Audio-Visual Scene Understanding Capabilities
