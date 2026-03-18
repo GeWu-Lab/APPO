@@ -17,10 +17,23 @@ APPO: Attention-guided Perception Policy Optimization for Video Reasoning
 
 <img src="assets/teaser.png" width="800" />
 
-
-
+We present APPO, the Attention-guided Perception Policy Optimization algorithm that enhances model’s fine-grained perception
+ability through reasoning. The core idea behind APPO is to optimize those tokens from different responses that primarily focus on the
+same crucial video frames (called intra-group perception tokens), resulting in fine-grained token level reward signals. Left: The illustration
+of APPO algorithm. The intra-group perception tokens are defined as those tokens from different responses that primarily focus on the
+same crucial video frame. The perception tokens within each group are optimized with different learning intensities. Right: Experimental
+results on multiple video benchmarks demonstrate APPO achieves overall performance improvement compared with GRPO and DAPO.
 
 <img src="assets/perception-reasoning-curves.png" width="800" />
+The Perception-Reasoning curves on SEED-Bench-R1 [4] and Perception-Test [20] benchmarks, quantifying the impact of
+perception vs. reasoning ability on overall performance. Each point in the curve represents the performance achieved by combining
+specific perception and reasoning ability. In particular, we first prompted four perception models with progressively enhanced abilities
+(including Qwen2.5-VL-3/7/32B [1] and Gemini-2.0-flash [5]) to describe video content in detail. Subsequently, the other four reasoning
+models with varying capabilities (including Qwen3-4/8B, Qwen3-235-A22B-thinking [30], and OpenAI-o3 [12]) were used to think and
+answer questions based on the descriptions provided by each perception model, respectively, yielding 4 × 4 cross-combination results.
+(a) For SEED-Bench-R1 benchmark, we evaluate on 2K Level-1 samples. (b) For Perception Test benchmark, we randomly select 1K
+samples from different videos for evaluation. (c) The performance comparison of GRPO, DAPO and our APPO on SEED-Bench-R1
+benchmark across different scales models, demonstrating the significant improvements brought by enhanced perception.
 
 
 
