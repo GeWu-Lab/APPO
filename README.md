@@ -13,7 +13,7 @@ APPO: Attention-guided Perception Policy Optimization for Video Reasoning
 <h5 align="center">
 
 
-[![ArXiv](https://img.shields.io/badge/CVPR-<OpenReview>-<COLOR>.svg)](https://openreview.net/pdf?id=MlW8yZMIqg) [![hf_checkpoint](https://img.shields.io/badge/🤗-APPO-9C276A.svg)](https://huggingface.co/CserDu123/ARPO) [![arXiv](https://img.shields.io/badge/Arxiv-2503.13068-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2602.23823)<br>
+[![hf_checkpoint](https://img.shields.io/badge/🤗-APPO-9C276A.svg)](https://huggingface.co/CserDu123/ARPO) [![arXiv](https://img.shields.io/badge/Arxiv-2503.13068-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2602.23823)<br>
 
 <img src="assets/teaser.png" width="800" />
 
