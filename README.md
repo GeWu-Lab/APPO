@@ -17,6 +17,13 @@ APPO: Attention-guided Perception Policy Optimization for Video Reasoning
 
 <img src="assets/teaser.png" width="800" />
 
+
+
+
+<img src="assets/perception-reasoning-curves.png" width="800" />
+
+
+
 ## 📰 News
 
 * **[2026.03.18]**   Release training and evaluation codes of Crab.
