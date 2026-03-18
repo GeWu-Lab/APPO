@@ -21,6 +21,7 @@ The core idea behind APPO is to optimize those tokens from different responses t
 same crucial video frames (called intra-group perception tokens), resulting in fine-grained token level reward signals. 
 
 <img src="assets/perception-reasoning-curves.png" width="800" />
+
 The Perception-Reasoning curves on SEED-Bench-R1 and Perception-Test benchmarks, quantifying the impact of
 perception vs. reasoning ability on overall performance.
 
