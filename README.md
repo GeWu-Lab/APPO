@@ -29,7 +29,7 @@ perception vs. reasoning ability on overall performance.
 
 ## 📰 News
 
-* **[2026.03.18]**   Release training and evaluation codes of Crab.
+* **[2026.03.18]**   Release training and evaluation codes of APPO.
 * **[2026.02.20]**   APPO has been accepted to CVPR 2026.
 
 
